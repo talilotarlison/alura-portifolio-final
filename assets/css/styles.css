@@ -1,49 +1,49 @@
-
 /**
  * FIGMA DO PROJETO:
  * https://www.figma.com/file/dRdkkewTSz9Xu1TXoQkW0u/Portfolio---Curso-1?type=design&node-id=0-1&mode=design&t=5qBL2uEfaekXPcGb-0
  */
 
- :root {
-	--fonte-prinicpal:'Krona One', sans-serif;
+:root {
+	--fonte-prinicpal: 'Krona One', sans-serif;
 	--fonte-secundaria: 'Montserrat', sans-serif;
-	--cor-princial:  #22D4FD;
+	--cor-princial: #22D4FD;
 	--background: black;
-  }
+}
 
 
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
+body {
 	font-family: var(--fonte-prinicpal);
 	background-color: var(--background);
 }
-header{
+
+header {
 	max-width: 1150px;
 	margin: 0 auto;
 	padding: 20px;
 }
 
-nav{
+nav {
 	display: flex;
 	gap: 30px;
 }
 
-nav > a {
+nav>a {
 	color: var(--cor-princial);
 	text-decoration: none;
 }
 
-nav > a:hover{
+nav>a:hover {
 	opacity: 0.7;
 }
 
-main{
+main {
 	display: flex;
 	flex-direction: row;
 	align-content: center;
@@ -55,20 +55,20 @@ main{
 }
 
 
-section{
-   max-width: 615px;
-   min-height: 482px;
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-   align-items: center;
-   justify-content: center;
-   gap:20px;
-   margin: 20px;
-  
+section {
+	max-width: 615px;
+	min-height: 482px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin: 20px;
+
 }
 
-h1{
+h1 {
 	color: #F6F6F6;
 	text-align: start;
 	font-size: 28px;
@@ -76,14 +76,14 @@ h1{
 	line-height: 30px;
 }
 
-strong{
+strong {
 	color: var(--cor-princial);
 	font-size: 28px;
 	font-weight: 400;
-	line-height: 30px;	
+	line-height: 30px;
 }
 
-p{ 
+p {
 	font-family: var(--fonte-secundaria);
 	color: #F6F6F6;
 	text-align: justify;
@@ -100,14 +100,14 @@ p{
 	flex-direction: column;
 	align-items: center;
 	flex-wrap: wrap;
-	gap:10px;
-	
+	gap: 10px;
+
 }
 
-.btns a{
-	font-family:var(--fonte-secundaria);
+.btns a {
+	font-family: var(--fonte-secundaria);
 	display: flex;
-	gap:5px;
+	gap: 5px;
 	align-items: center;
 	justify-content: center;
 	width: 280px;
@@ -116,32 +116,34 @@ p{
 	border-radius: 16px;
 	border: solid 2px #22D4FD;
 	color: whitesmoke;
-    background-color: var(--background);
+	background-color: var(--background);
 	text-align: center;
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: 600;
 
 }
-ion-icon{
+
+ion-icon {
 	color: var(--cor-princial);
 }
 
-.btns a:hover{
+.btns a:hover {
 	opacity: 0.7;
 }
 
-.perfil{
+.perfil {
 	display: block;
 	max-width: 467px;
 	max-height: 532px;
 	margin: 20px;
 }
-img{
+
+img {
 	width: 100%;
 }
 
-footer{
+footer {
 	padding: 20px;
 	background-color: var(--cor-princial);
 	text-align: center;
