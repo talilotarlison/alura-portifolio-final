@@ -140,3 +140,9 @@ ion-icon{
 img{
 	width: 100%;
 }
+
+footer{
+	padding: 20px;
+	background-color: var(--cor-princial);
+	text-align: center;
+}
