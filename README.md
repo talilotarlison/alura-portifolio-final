@@ -13,15 +13,39 @@
 
 - `CSS`
 
-- `Flex box`
+- `Flexbox`
+
+- `Google Fontes`
 
 ### Feito por:
 
 ### by Talilo Tarlison
 
-### Linkedin: https://www.linkedin.com/in/talilotarlison/
+### [Linkedin](https://www.linkedin.com/in/talilotarlison/)
 
 
 ## 📚 Mais informações do curso
 
 Gostou do projeto e quer conhecer mais? Você pode [acessar o curso](https://cursos.alura.com.br/) que desenvolve o projeto desde o começo!
+
+
+## Estrutura comum de projetos HTML
+
+### Normalmente, os projetos web usam uma estrutura parecida com esta:
+
+```md
+        meu-projeto/
+        │
+        ├── index.html
+        ├── about.html
+        │
+        ├── assets/
+        │   ├── css/
+        │   ├── js/
+        │   ├── images/
+        │   └── fonts/
+        │
+        └── pages/
+            ├── contato.html
+            └── servicos.html
+```
